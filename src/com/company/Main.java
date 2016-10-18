@@ -17,6 +17,6 @@ public class Main {
         String s = "pie";
         int x = s.compareTo("pipe");
         if(x<0)
-        System.out.print(x);
+        System.out.print("pie is before pipe");
     }
 }

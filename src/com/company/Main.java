@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	/* public int compareTo(object myObj)
+	* can take any object but we will specifically be talking about it accepting Strings
 	* takes a String and alphabetically compares it to another String to see which String would come first in an alphabetically ordered list.
 	* It returns a positive integer if the String making the call precedes the String in the paranthesis
 	* a negative is returned if the String comes after the one in the paranthesis
@@ -12,6 +13,10 @@ public class Main {
 	* error:
 	* String s = "Apple";
 	* int a = s.compareTo"Aptitude";
-	* this would reuturn a */
+	* this would return a positive number since the second p in "Apple" comes before the t in "Aptitude"*/
+        String s = "pie";
+        int x = s.compareTo("pipe");
+        if(x>0)
+            System.out.print("pie is first");
     }
 }

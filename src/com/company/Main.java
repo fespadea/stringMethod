@@ -10,6 +10,7 @@ public class Main {
 	* a positive is returned if the String comes after the one in the paranthesis
 	* and a 0 is returned if they are equal
 	* note: alphabeticalness is decided based on ASCII so capital letters come first
+	* other note: pretty sure the return value is the first string's char value minus the second char's value
 	* error:
 	* String s = "Apple";
 	* int a = s.compareTo"Aptitude";
